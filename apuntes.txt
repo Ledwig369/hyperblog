@@ -1,0 +1,27 @@
+git init: Se utiliza para determinar la carpeta en la que vamos a trabajar.
+
+git status: lo usamos para saber si tenemos un archivo añadido o borrado
+            en nuestro proyecto, para saber en la rama en la que estamos
+            y si tenemos commits.
+
+git add: Este comando es utilizado para agregar un archivo a nuestra rama
+         seguidamente ponemos el nombre del archivo o utilizamos un "." para
+         agregar todos los archivos de nuestra carpeta.
+
+git rm: Es utilizado para borrar un archivo que hayamos agregado, para
+        eliminarlo por completo de nuestra rama utilizamos (git rm --cached)
+
+git config: Este comando muestra las configuraciones de git, podemos utilizar
+            --list para mostrar la configuracion por defecto de nuestro git.
+            Si agregamos --show-origin nos muestra las configuraciones 
+            guardadas y su ubicacion.
+
+git config --global user.name: Utilizamos este comando para cambiar el nombre
+                               de usuario de forma global.
+
+git config --global user.email: Utilizamos este comando para cambiar el correo
+                                de usuario de forma global.
+
+git log: Se utiliza para ver la historia de nuestros archivos, los commits
+         realizados, el usuario que lo modifico, cuando se realizaron esos
+         cambios, etc. Seguidamente se utiliza el nombre del archivo.
