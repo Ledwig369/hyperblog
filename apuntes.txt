@@ -1,4 +1,4 @@
-git init: Se utiliza para determinar la carpeta en la que vamos a trabajar.
+git init: Se utiliza para inicializar el repositorio.
 
 git status: lo usamos para saber si tenemos un archivo añadido o borrado
             en nuestro proyecto, para saber en la rama en la que estamos
