@@ -8,6 +8,9 @@ git add: Este comando es utilizado para agregar un archivo a nuestra rama
          seguidamente ponemos el nombre del archivo o utilizamos un "." para
          agregar todos los archivos de nuestra carpeta.
 
+git commit -m "mensaje": Este comando es utilizado para agregar los cambios
+                         que se encuentran en staging al repositorio local.
+
 git rm: Es utilizado para borrar un archivo que hayamos agregado, para
         eliminarlo por completo de nuestra rama utilizamos (git rm --cached)
 
