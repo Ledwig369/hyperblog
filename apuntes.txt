@@ -25,3 +25,24 @@ git config --global user.email: Utilizamos este comando para cambiar el correo
 git log: Se utiliza para ver la historia de nuestros archivos, los commits
          realizados, el usuario que lo modifico, cuando se realizaron esos
          cambios, etc. Seguidamente se utiliza el nombre del archivo.
+
+git rm --cached: Elimina los archivos de nuestro repositorio local y del area
+                 de staging, pero los mantiene en nuestro disco duro.
+
+git rm --force: Elimina los archivos de Git y del disco duro. Git siempre
+                guarda todo, por lo que podemos acceder al registro de la
+                existencia de los archivos, de modo que podremos recuperarlos
+                si es necesario (pero debemos usar comandos mas avanzados).
+
+git reset --soft: Borra todo el historial y los registros de Git pero guardamos
+                  los cambios que tengamos en Staging, asi podemos aplicar las
+                  ultimas actualizaciones a un nuevo commit.
+
+git reset --hard: Borra todo, absolutamente todo. Toda la informacion de los
+                  commits y del area de stagin se borra del historial.
+
+git reset HEAD: este es el comando para sacar archivos del area de staging.
+                No para borrarlos ni nada de eso, solo para que los ultimos
+                cambios de estos archivos no se envien al ultimo commit, a menos
+                que cambiemos de opinion y los incluyamos de nuevo en staging
+                con git add.
